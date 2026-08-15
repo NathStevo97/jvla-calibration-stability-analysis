@@ -24,7 +24,7 @@ for fname in dirlist:
 	tb.open(fname+"/13B-266_"+fname+".mms/ANTENNA") #this creates a dynamic list of every antenna involved in the current observation
 	ANT_DICT = tb.getcol("NAME") #list contents will change for each measurement
 					#e.g in the first measurement every antenna except ea07 could be used
-					#but in the next one 
+					#but in the next one ea07 may be present again
 	tb.done()
 	tb.open(fname+"/13B-266_"+fname+".B")
 	SPW_LIST = np.unique(tb.getcol("SPECTRAL_WINDOW_ID")) #this creates a dynamic list of every SPW recorded for this observation
