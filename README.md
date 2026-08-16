@@ -1,4 +1,4 @@
-# JVLA_Calibration Stability Analysis
+# JVLA Calibration Stability Analysis
 
 > **Status: archived research software.** This repository is preserved as a record of a 2019 summer research internship and the analysis that contributed to EVLA Memo 208. It is not under active development, and the original calibration products are not included.
 
